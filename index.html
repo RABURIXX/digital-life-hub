@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Life Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">Digital<span>Life</span> Hub</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#technology">Technology</a>
+            <a href="#safety">Online Safety</a>
+        </nav>
+        
+<button id="dark-mode-btn" class="dark-mode-btn" onclick="toggleDarkMode()">
+    🌙 Dark Mode
+</button>
+
+    </header>
+
+    <section class="hero" id="home">
+        <p>WELCOME TO THE DIGITAL WORLD</p>
+        <h1>Living in the IT Era</h1>
+        <p>
+            Discover how technology changes the way we learn,
+            communicate, work, and live every day.
+        </p>
+        <a href="#about" class="btn">Explore More</a>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Digital Life Hub</h2>
+        <p>
+            Digital Life Hub is an educational website about
+            Information Technology. It helps people understand
+            the benefits, challenges, and responsible use of
+            technology in modern society.
+        </p>
+    </section>
+
+    <section class="section" id="technology">
+        <h2>Technology in Our Daily Life</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🎓 Education</h3>
+                
+<img
+    src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800"
+    alt="Students learning"
+    class="card-image"
+>
+
+                <p>
+                    Technology helps students research lessons,
+                    attend online classes, and access learning materials.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💬 Communication</h3>
+                
+<img
+    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+    alt="People communicating through technology"
+    class="card-image"
+>
+
+                <p>
+                    Messaging apps and video calls allow people
+                    to communicate wherever they are.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💼 Business</h3>
+                
+<img
+    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+    alt="Business analytics on a computer screen"
+    class="card-image"
+>
+
+                <p>
+                    Online platforms help businesses promote
+                    products and communicate with customers.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="safety">
+        <h2>Stay Safe Online</h2>
+        
+<section class="section" id="quiz-section">
+    <h2>Test Your IT Knowledge!</h2>
+    <p>Answer these questions and see how much you know about the digital world.</p>
+
+    <div class="card">
+        <div id="quiz">
+            <p>Ready to test your knowledge?</p>
+            <button class="btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+    </div>
+</section>
+        
+<!-- USEFUL WEBSITES SECTION -->
+<section class="section" id="useful-websites">
+    <h2>Useful Websites & Tech News</h2>
+    <p class="website-intro">
+        Explore these websites to learn new skills, read technology news,
+        and stay safe in the digital world.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>📰 Google News</h3>
+            <p>Read the latest news and explore different news sources.</p>
+            <a href="https://news.google.com/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Visit Website ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>💻 CNET</h3>
+            <p>Discover technology news, gadget reviews, apps, and useful tech tips.</p>
+            <a href="https://www.cnet.com/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Visit Website ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>🚀 TechCrunch</h3>
+            <p>Learn about new technology, startups, and digital innovations.</p>
+            <a href="https://techcrunch.com/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Visit Website ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>📚 Khan Academy</h3>
+            <p>Study different subjects through free lessons and learning materials.</p>
+            <a href="https://www.khanacademy.org/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Start Learning ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>🎓 W3Schools</h3>
+            <p>Learn HTML, CSS, JavaScript, and basic web development.</p>
+            <a href="https://www.w3schools.com/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Learn Coding ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>🔒 Google Safety Center</h3>
+            <p>Learn helpful tips for protecting your privacy and staying safe online.</p>
+            <a href="https://safety.google/"
+               target="_blank" rel="noopener noreferrer"
+               class="website-link">Stay Safe Online ↗</a>
+        </div>
+
+    </div>
+</section>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🔐 Strong Passwords</h3>
+                <p>Use strong passwords and never share them with strangers.</p>
+            </div>
+
+            <div class="card">
+                <h3>🛡️ Avoid Scams</h3>
+                <p>Check suspicious links before clicking or sharing information.</p>
+            </div>
+
+            <div class="card">
+                <h3>👤 Protect Privacy</h3>
+                <p>Think carefully before posting personal details online.</p>
+            </div>
+        </div>
+    </section>
+
+
+<!-- LATEST TECH NEWS -->
+<section class="section" id="tech-news">
+    <h2>📰 Latest Tech News</h2>
+    <p class="website-intro">
+        Explore technology news and discover what's happening in the digital world.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🚀 TechCrunch</h3>
+            <p>Read news about technology, startups, apps, and innovation.</p>
+            <a href="https://techcrunch.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="website-link">Read Tech News ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>💻 The Verge</h3>
+            <p>Explore stories about technology, gadgets, science, and the internet.</p>
+            <a href="https://www.theverge.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="website-link">Explore News ↗</a>
+        </div>
+
+        <div class="card">
+            <h3>🌐 BBC Technology</h3>
+            <p>Read technology reports and updates from around the world.</p>
+            <a href="https://www.bbc.com/news/technology"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="website-link">Read BBC News ↗</a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT THE CREATOR -->
+<section class="section" id="creator">
+    <h2>👩‍💻 About the Creator</h2>
+
+    <div class="card creator-card">
+        <div class="creator-icon">💻</div>
+
+        <h3>Lovely Rodriguez</h3>
+
+        <p>
+            Hello! I am Lovely, the creator of Digital Life Hub.
+            This website is my Individual Final Project for
+            Living in the IT Era. It aims to help students learn
+            about technology, online safety, and useful digital resources.
+        </p>
+
+        <h3>📩 Contact</h3>
+
+        <p>
+            Thank you for visiting my website!
+            You can contact me through the link below.
+        </p>
+
+        <a class="website-link"
+           href="https://www.facebook.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit Facebook ↗
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>Digital Life Hub | Living in the IT Era</p>
+    <p>Individual Final Project</p>
+    <p>Created by: Lovely Rodriguez</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
